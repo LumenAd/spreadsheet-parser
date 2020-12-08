@@ -11,6 +11,14 @@ namespace Akeneo\Component\SpreadsheetParser\Xlsx;
  */
 class WorksheetListReader
 {
+    
+     /* @var array */
+    private static $namespaces = [
+        'http://schemas.openxmlformats.org/officeDocument/2006/relationships',
+        'http://purl.oclc.org/ooxml/officeDocument/relationships',
+    ];
+    
+    
     /**
      * Returns the list of worksheets inside the archive
      *
@@ -29,10 +37,16 @@ class WorksheetListReader
         $paths = [];
         while ($xml->read()) {
             if (\XMLReader::ELEMENT === $xml->nodeType && 'sheet' === $xml->name) {
-                $rId = $xml->getAttributeNs(
-                    'id',
-                    'http://schemas.openxmlformats.org/officeDocument/2006/relationships'
-                );
+                $rId = null;
+                foreach(self::$namespaces as $namespace) {
+                    $rId = $xml->getAttributeNs('id', $namespace);
+                    if($rId) {
+                        break;
+                    }
+                }
+                if(empty($rId)) {
+                    break;
+                }
                 $paths[$xml->getAttribute('name')] = $relationships->getWorksheetPath($rId);
             }
         }
