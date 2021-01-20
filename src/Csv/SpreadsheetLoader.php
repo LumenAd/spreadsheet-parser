@@ -1,8 +1,8 @@
 <?php
 
-namespace Akeneo\Component\SpreadsheetParser\Csv;
+namespace LumenAd\Component\SpreadsheetParser\Csv;
 
-use Akeneo\Component\SpreadsheetParser\SpreadsheetLoaderInterface;
+use LumenAd\Component\SpreadsheetParser\SpreadsheetLoaderInterface;
 
 /**
  * CSV file reader

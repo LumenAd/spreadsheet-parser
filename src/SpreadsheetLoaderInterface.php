@@ -1,6 +1,6 @@
 <?php
 
-namespace Akeneo\Component\SpreadsheetParser;
+namespace LumenAd\Component\SpreadsheetParser;
 
 /**
  * Common interface for spreadsheet loaders

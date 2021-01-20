@@ -1,6 +1,6 @@
 <?php
 
-namespace Akeneo\Component\SpreadsheetParser\Xlsx;
+namespace LumenAd\Component\SpreadsheetParser\Xlsx;
 
 /**
  * Transforms an Excel cell name in an index

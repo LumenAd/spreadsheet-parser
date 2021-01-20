@@ -1,8 +1,8 @@
 {
-    "name": "akeneo-labs/spreadsheet-parser",
-    "description": "Akeneo Spreadsheet parser. Reads XLXS files from Microsoft Excel and Open Office",
-    "keywords": ["akeneo", "excel", "xlsx", "reader", "parser", "spreadsheet"],
-    "homepage": "http://akeneo.com",
+    "name": "LumenAd/spreadsheet-parser",
+    "description": "LumeAd Spreadsheet parser derivative of Akeneo Spreadsheet parser.. Reads XLXS files from Microsoft Excel and Open Office",
+    "keywords": ["akeneo", "excel", "xlsx", "reader", "parser", "spreadsheet", "LumenAd"],
+    "homepage": "https://lumenad.com",
     "license": "OSL-3.0",
     "authors": [
         {
@@ -18,6 +18,10 @@
         {
             "name": "JM Leroux",
             "email": "jean-marie.leroux@akeneo.com"
+        },
+        {
+            "name": "Hristijan Tintar",
+            "email": "hristijan.tintar@gmail.com"
         }
     ],
     "require": {
@@ -30,7 +34,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Akeneo\\Component\\SpreadsheetParser\\": "src"
+            "LumenAd\\Component\\SpreadsheetParser\\": "src"
         }
     },
     "extra": {

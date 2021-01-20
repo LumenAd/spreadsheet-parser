@@ -1,8 +1,8 @@
 <?php
 
-namespace Akeneo\Component\SpreadsheetParser\Xlsx;
+namespace LumenAd\Component\SpreadsheetParser\Xlsx;
 
-use Akeneo\Component\SpreadsheetParser\SpreadsheetLoaderInterface;
+use LumenAd\Component\SpreadsheetParser\SpreadsheetLoaderInterface;
 
 /**
  * XLSX file reader

@@ -1,8 +1,8 @@
 <?php
 
-namespace Akeneo\Component\SpreadsheetParser\Xlsx;
+namespace LumenAd\Component\SpreadsheetParser\Xlsx;
 
-use Akeneo\Component\SpreadsheetParser\SpreadsheetInterface;
+use LumenAd\Component\SpreadsheetParser\SpreadsheetInterface;
 
 /**
  * Represents an XLSX spreadsheet

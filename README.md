@@ -1,7 +1,7 @@
-Akeneo Spreadsheet Parser
+LumenAd Spreadsheet Parser
 =========================
 
-This component is designed to extract data from spreadsheets, while being easy on resources, even for large files.
+This component is derivative of akeneo-labs (<insert link here>) and designed to extract data from spreadsheets, while being easy on resources, even for large files.
 
 The current version of the spreadsheet parser works with csv and xlsx files.
 
@@ -14,7 +14,7 @@ Installing the package
 From your application root:
 
 ```bash
-    $ php composer.phar require --prefer-dist "akeneo-labs/spreadsheet-parser"
+    $ php composer.phar require --prefer-dist "LumenAd/spreadsheet-parser"
 ```
 
 Usage
@@ -23,7 +23,7 @@ Usage
 To extract data from an XLSX spreadsheet, use the following code:
 
 ```php
-    use Akeneo\Component\SpreadsheetParser\SpreadsheetParser;
+    use LumenAd\Component\SpreadsheetParser\SpreadsheetParser;
 
     $workbook = SpreadsheetParser::open('myfile.xlsx');
 
@@ -37,7 +37,7 @@ To extract data from an XLSX spreadsheet, use the following code:
 By using the CSV parser options, you can specify the format of your CSV file :
 
 ```php 
-    use Akeneo\Component\SpreadsheetParser\SpreadsheetParser;
+    use LumenAd\Component\SpreadsheetParser\SpreadsheetParser;
 
     $workbook = SpreadsheetParser::open('myfile.csv');
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace Akeneo\Component\SpreadsheetParser\Csv;
+namespace LumenAd\Component\SpreadsheetParser\Csv;
 
 /**
  * Entry point for CSV parser
@@ -17,12 +17,12 @@ class CsvParser
     /**
      * @staticvar string Spreadsheet class
      */
-    const WORKBOOK_CLASS = 'Akeneo\Component\SpreadsheetParser\Csv\Spreadsheet';
+    const WORKBOOK_CLASS = 'LumenAd\Component\SpreadsheetParser\Csv\Spreadsheet';
 
     /**
      * @staticvar string RowIterator class
      */
-    const ROW_ITERATOR_CLASS = 'Akeneo\Component\SpreadsheetParser\Csv\RowIterator';
+    const ROW_ITERATOR_CLASS = 'LumenAd\Component\SpreadsheetParser\Csv\RowIterator';
 
     /**
      * @staticvar string The name of the sheet

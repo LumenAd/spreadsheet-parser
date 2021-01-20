@@ -1,6 +1,6 @@
 <?php
 
-namespace Akeneo\Component\SpreadsheetParser;
+namespace LumenAd\Component\SpreadsheetParser;
 
 /**
  * Entry point for the SpreadsheetParser component

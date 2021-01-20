@@ -1,6 +1,6 @@
 <?php
 
-namespace Akeneo\Component\SpreadsheetParser\Xlsx;
+namespace LumenAd\Component\SpreadsheetParser\Xlsx;
 
 /**
  * Entry point for XLSX reader
@@ -24,42 +24,42 @@ class XlsxParser
     /**
      * @staticvar string Archive class
      */
-    const ARCHIVE_CLASS = 'Akeneo\Component\SpreadsheetParser\Xlsx\Archive';
+    const ARCHIVE_CLASS = 'LumenAd\Component\SpreadsheetParser\Xlsx\Archive';
 
     /**
      * @staticvar string Relationships class
      */
-    const RELATIONSHIPS_CLASS = 'Akeneo\Component\SpreadsheetParser\Xlsx\Relationships';
+    const RELATIONSHIPS_CLASS = 'LumenAd\Component\SpreadsheetParser\Xlsx\Relationships';
 
     /**
      * @staticvar string RowBuilder class
      */
-    const ROW_BUILDER_CLASS = 'Akeneo\Component\SpreadsheetParser\Xlsx\RowBuilder';
+    const ROW_BUILDER_CLASS = 'LumenAd\Component\SpreadsheetParser\Xlsx\RowBuilder';
 
     /**
      * @staticvar string RowIterator class
      */
-    const ROW_ITERATOR_CLASS = 'Akeneo\Component\SpreadsheetParser\Xlsx\RowIterator';
+    const ROW_ITERATOR_CLASS = 'LumenAd\Component\SpreadsheetParser\Xlsx\RowIterator';
 
     /**
      * @staticvar string SharedStrings class
      */
-    const SHARED_STRINGS_CLASS = 'Akeneo\Component\SpreadsheetParser\Xlsx\SharedStrings';
+    const SHARED_STRINGS_CLASS = 'LumenAd\Component\SpreadsheetParser\Xlsx\SharedStrings';
 
     /**
      * @staticvar string Styles class
      */
-    const STYLES_CLASS = 'Akeneo\Component\SpreadsheetParser\Xlsx\Styles';
+    const STYLES_CLASS = 'LumenAd\Component\SpreadsheetParser\Xlsx\Styles';
 
     /**
      * @staticvar string ValueTransformer class
      */
-    const VALUE_TRANSFORMER_CLASS = 'Akeneo\Component\SpreadsheetParser\Xlsx\ValueTransformer';
+    const VALUE_TRANSFORMER_CLASS = 'LumenAd\Component\SpreadsheetParser\Xlsx\ValueTransformer';
 
     /**
      * @staticvar string Spreadsheet class
      */
-    const WORKBOOK_CLASS = 'Akeneo\Component\SpreadsheetParser\Xlsx\Spreadsheet';
+    const WORKBOOK_CLASS = 'LumenAd\Component\SpreadsheetParser\Xlsx\Spreadsheet';
 
     /**
      * @var SpreadsheetLoader
