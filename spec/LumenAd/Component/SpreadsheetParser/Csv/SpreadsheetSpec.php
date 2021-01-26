@@ -1,10 +1,10 @@
 <?php
 
-namespace spec\Akeneo\Component\SpreadsheetParser\Csv;
+namespace spec\LumenAd\Component\SpreadsheetParser\Csv;
 
 use PhpSpec\ObjectBehavior;
-use Akeneo\Component\SpreadsheetParser\Csv\RowIterator;
-use Akeneo\Component\SpreadsheetParser\Csv\RowIteratorFactory;
+use LumenAd\Component\SpreadsheetParser\Csv\RowIterator;
+use LumenAd\Component\SpreadsheetParser\Csv\RowIteratorFactory;
 
 class SpreadsheetSpec extends ObjectBehavior
 {
@@ -15,7 +15,7 @@ class SpreadsheetSpec extends ObjectBehavior
 
     public function it_is_initializable()
     {
-        $this->shouldHaveType('Akeneo\Component\SpreadsheetParser\Csv\Spreadsheet');
+        $this->shouldHaveType('LumenAd\Component\SpreadsheetParser\Csv\Spreadsheet');
     }
 
     public function it_returns_the_worksheet_list()

@@ -1,20 +1,20 @@
 <?php
 
-namespace spec\Akeneo\Component\SpreadsheetParser\Xlsx;
+namespace spec\LumenAd\Component\SpreadsheetParser\Xlsx;
 
-use Akeneo\Component\SpreadsheetParser\Xlsx\Archive;
+use LumenAd\Component\SpreadsheetParser\Xlsx\Archive;
 use PhpSpec\ObjectBehavior;
 
 class StylesLoaderSpec extends ObjectBehavior
 {
     public function let()
     {
-        $this->beConstructedWith('spec\Akeneo\Component\SpreadsheetParser\Xlsx\StubStyles');
+        $this->beConstructedWith('spec\LumenAd\Component\SpreadsheetParser\Xlsx\StubStyles');
     }
 
     public function it_is_initializable()
     {
-        $this->shouldHaveType('Akeneo\Component\SpreadsheetParser\Xlsx\StylesLoader');
+        $this->shouldHaveType('LumenAd\Component\SpreadsheetParser\Xlsx\StylesLoader');
     }
 
     public function it_loads_styles(Archive $archive)

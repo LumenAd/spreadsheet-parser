@@ -1,13 +1,13 @@
 <?php
 
-namespace spec\Akeneo\Component\SpreadsheetParser\Xlsx;
+namespace spec\LumenAd\Component\SpreadsheetParser\Xlsx;
 
 use PhpSpec\ObjectBehavior;
-use Akeneo\Component\SpreadsheetParser\Xlsx\Archive;
-use Akeneo\Component\SpreadsheetParser\Xlsx\ColumnIndexTransformer;
-use Akeneo\Component\SpreadsheetParser\Xlsx\RowBuilder;
-use Akeneo\Component\SpreadsheetParser\Xlsx\RowBuilderFactory;
-use Akeneo\Component\SpreadsheetParser\Xlsx\ValueTransformer;
+use LumenAd\Component\SpreadsheetParser\Xlsx\Archive;
+use LumenAd\Component\SpreadsheetParser\Xlsx\ColumnIndexTransformer;
+use LumenAd\Component\SpreadsheetParser\Xlsx\RowBuilder;
+use LumenAd\Component\SpreadsheetParser\Xlsx\RowBuilderFactory;
+use LumenAd\Component\SpreadsheetParser\Xlsx\ValueTransformer;
 use Prophecy\Argument;
 
 class RowIteratorSpec extends ObjectBehavior
@@ -67,7 +67,7 @@ class RowIteratorSpec extends ObjectBehavior
 
     public function it_is_initializable()
     {
-        $this->shouldHaveType('Akeneo\Component\SpreadsheetParser\Xlsx\RowIterator');
+        $this->shouldHaveType('LumenAd\Component\SpreadsheetParser\Xlsx\RowIterator');
     }
 
     public function it_iterates_through_rows()

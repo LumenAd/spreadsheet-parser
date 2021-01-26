@@ -1,9 +1,9 @@
 <?php
 
-namespace spec\Akeneo\Component\SpreadsheetParser\Csv;
+namespace spec\LumenAd\Component\SpreadsheetParser\Csv;
 
 use PhpSpec\ObjectBehavior;
-use Akeneo\Component\SpreadsheetParser\Csv\RowIteratorFactory;
+use LumenAd\Component\SpreadsheetParser\Csv\RowIteratorFactory;
 
 class SpreadsheetLoaderSpec extends ObjectBehavior
 {
@@ -11,14 +11,14 @@ class SpreadsheetLoaderSpec extends ObjectBehavior
     {
         $this->beConstructedWith(
             $rowIteratorFactory,
-            'spec\Akeneo\Component\SpreadsheetParser\Csv\StubSpreadsheet',
+            'spec\LumenAd\Component\SpreadsheetParser\Csv\StubSpreadsheet',
             'sheet'
         );
     }
 
     public function it_is_initializable()
     {
-        $this->shouldHaveType('Akeneo\Component\SpreadsheetParser\Csv\SpreadsheetLoader');
+        $this->shouldHaveType('LumenAd\Component\SpreadsheetParser\Csv\SpreadsheetLoader');
     }
 
     public function it_creates_spreadsheet_objects(RowIteratorFactory $rowIteratorFactory)

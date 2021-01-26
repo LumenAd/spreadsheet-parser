@@ -1,22 +1,22 @@
 <?php
 
-namespace spec\Akeneo\Component\SpreadsheetParser\Xlsx;
+namespace spec\LumenAd\Component\SpreadsheetParser\Xlsx;
 
 use PhpSpec\ObjectBehavior;
-use Akeneo\Component\SpreadsheetParser\Xlsx\DateTransformer;
-use Akeneo\Component\SpreadsheetParser\Xlsx\SharedStrings;
-use Akeneo\Component\SpreadsheetParser\Xlsx\Styles;
+use LumenAd\Component\SpreadsheetParser\Xlsx\DateTransformer;
+use LumenAd\Component\SpreadsheetParser\Xlsx\SharedStrings;
+use LumenAd\Component\SpreadsheetParser\Xlsx\Styles;
 
 class ValueTransformerFactorySpec extends ObjectBehavior
 {
     public function let(DateTransformer $dateTransformer)
     {
-        $this->beConstructedWith($dateTransformer, 'spec\Akeneo\Component\SpreadsheetParser\Xlsx\StubValueTransformer');
+        $this->beConstructedWith($dateTransformer, 'spec\LumenAd\Component\SpreadsheetParser\Xlsx\StubValueTransformer');
     }
 
     public function it_is_initializable()
     {
-        $this->shouldHaveType('Akeneo\Component\SpreadsheetParser\Xlsx\ValueTransformerFactory');
+        $this->shouldHaveType('LumenAd\Component\SpreadsheetParser\Xlsx\ValueTransformerFactory');
     }
 
     public function it_creates_value_transformers(

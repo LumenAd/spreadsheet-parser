@@ -1,6 +1,6 @@
 <?php
 
-namespace spec\Akeneo\Component\SpreadsheetParser\Xlsx;
+namespace spec\LumenAd\Component\SpreadsheetParser\Xlsx;
 
 use PhpSpec\ObjectBehavior;
 
@@ -13,7 +13,7 @@ class RelationshipsSpec extends ObjectBehavior
 
     public function it_is_initializable()
     {
-        $this->shouldHaveType('Akeneo\Component\SpreadsheetParser\Xlsx\Relationships');
+        $this->shouldHaveType('LumenAd\Component\SpreadsheetParser\Xlsx\Relationships');
     }
 
     public function it_returns_worksheet_paths()

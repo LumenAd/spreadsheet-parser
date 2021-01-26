@@ -1,8 +1,8 @@
 <?php
 
-namespace spec\Akeneo\Component\SpreadsheetParser\Xlsx;
+namespace spec\LumenAd\Component\SpreadsheetParser\Xlsx;
 
-use Akeneo\Component\SpreadsheetParser\Xlsx\Relationships;
+use LumenAd\Component\SpreadsheetParser\Xlsx\Relationships;
 use PhpSpec\ObjectBehavior;
 use Prophecy\Argument;
 
@@ -10,7 +10,7 @@ class WorksheetListReaderSpec extends ObjectBehavior
 {
     public function it_is_initializable()
     {
-        $this->shouldHaveType('Akeneo\Component\SpreadsheetParser\Xlsx\WorksheetListReader');
+        $this->shouldHaveType('LumenAd\Component\SpreadsheetParser\Xlsx\WorksheetListReader');
     }
 
     public function it_returns_worksheet_paths(Relationships $relationships)

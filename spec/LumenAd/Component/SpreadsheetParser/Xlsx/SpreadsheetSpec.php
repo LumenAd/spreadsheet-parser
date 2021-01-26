@@ -1,21 +1,21 @@
 <?php
 
-namespace spec\Akeneo\Component\SpreadsheetParser\Xlsx;
+namespace spec\LumenAd\Component\SpreadsheetParser\Xlsx;
 
 use PhpSpec\ObjectBehavior;
-use Akeneo\Component\SpreadsheetParser\Xlsx\Archive;
-use Akeneo\Component\SpreadsheetParser\Xlsx\Relationships;
-use Akeneo\Component\SpreadsheetParser\Xlsx\RelationshipsLoader;
-use Akeneo\Component\SpreadsheetParser\Xlsx\RowIterator;
-use Akeneo\Component\SpreadsheetParser\Xlsx\RowIteratorFactory;
-use Akeneo\Component\SpreadsheetParser\Xlsx\SharedStrings;
-use Akeneo\Component\SpreadsheetParser\Xlsx\SharedStringsLoader;
-use Akeneo\Component\SpreadsheetParser\Xlsx\Styles;
-use Akeneo\Component\SpreadsheetParser\Xlsx\StylesLoader;
-use Akeneo\Component\SpreadsheetParser\Xlsx\ValueTransformer;
-use Akeneo\Component\SpreadsheetParser\Xlsx\ValueTransformerFactory;
-use Akeneo\Component\SpreadsheetParser\Xlsx\Spreadsheet;
-use Akeneo\Component\SpreadsheetParser\Xlsx\WorksheetListReader;
+use LumenAd\Component\SpreadsheetParser\Xlsx\Archive;
+use LumenAd\Component\SpreadsheetParser\Xlsx\Relationships;
+use LumenAd\Component\SpreadsheetParser\Xlsx\RelationshipsLoader;
+use LumenAd\Component\SpreadsheetParser\Xlsx\RowIterator;
+use LumenAd\Component\SpreadsheetParser\Xlsx\RowIteratorFactory;
+use LumenAd\Component\SpreadsheetParser\Xlsx\SharedStrings;
+use LumenAd\Component\SpreadsheetParser\Xlsx\SharedStringsLoader;
+use LumenAd\Component\SpreadsheetParser\Xlsx\Styles;
+use LumenAd\Component\SpreadsheetParser\Xlsx\StylesLoader;
+use LumenAd\Component\SpreadsheetParser\Xlsx\ValueTransformer;
+use LumenAd\Component\SpreadsheetParser\Xlsx\ValueTransformerFactory;
+use LumenAd\Component\SpreadsheetParser\Xlsx\Spreadsheet;
+use LumenAd\Component\SpreadsheetParser\Xlsx\WorksheetListReader;
 use Prophecy\Argument;
 use Prophecy\Exception\Prediction\UnexpectedCallsException;
 
@@ -79,7 +79,7 @@ class SpreadsheetSpec extends ObjectBehavior
 
     public function it_is_initializable()
     {
-        $this->shouldHaveType('Akeneo\Component\SpreadsheetParser\Xlsx\Spreadsheet');
+        $this->shouldHaveType('LumenAd\Component\SpreadsheetParser\Xlsx\Spreadsheet');
     }
 
     public function it_returns_the_worksheet_list()

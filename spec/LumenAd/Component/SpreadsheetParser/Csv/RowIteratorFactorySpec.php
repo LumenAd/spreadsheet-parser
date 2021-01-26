@@ -1,6 +1,6 @@
 <?php
 
-namespace spec\Akeneo\Component\SpreadsheetParser\Csv;
+namespace spec\LumenAd\Component\SpreadsheetParser\Csv;
 
 use PhpSpec\ObjectBehavior;
 
@@ -8,12 +8,12 @@ class RowIteratorFactorySpec extends ObjectBehavior
 {
     public function let()
     {
-        $this->beConstructedWith('spec\Akeneo\Component\SpreadsheetParser\Csv\StubRowIterator');
+        $this->beConstructedWith('spec\LumenAd\Component\SpreadsheetParser\Csv\StubRowIterator');
     }
 
     public function it_is_initializable()
     {
-        $this->shouldHaveType('Akeneo\Component\SpreadsheetParser\Csv\RowIteratorFactory');
+        $this->shouldHaveType('LumenAd\Component\SpreadsheetParser\Csv\RowIteratorFactory');
     }
 
     public function it_creates_row_iterators()

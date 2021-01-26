@@ -1,6 +1,6 @@
 <?php
 
-namespace spec\Akeneo\Component\SpreadsheetParser\Xlsx;
+namespace spec\LumenAd\Component\SpreadsheetParser\Xlsx;
 
 use PhpSpec\ObjectBehavior;
 
@@ -8,12 +8,12 @@ class RelationshipsLoaderSpec extends ObjectBehavior
 {
     public function let()
     {
-        $this->beConstructedWith('spec\Akeneo\Component\SpreadsheetParser\Xlsx\StubRelationships');
+        $this->beConstructedWith('spec\LumenAd\Component\SpreadsheetParser\Xlsx\StubRelationships');
     }
 
     public function it_is_initializable()
     {
-        $this->shouldHaveType('Akeneo\Component\SpreadsheetParser\Xlsx\RelationshipsLoader');
+        $this->shouldHaveType('LumenAd\Component\SpreadsheetParser\Xlsx\RelationshipsLoader');
     }
 
     public function it_loads_relationships()

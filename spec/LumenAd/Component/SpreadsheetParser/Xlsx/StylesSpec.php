@@ -1,9 +1,9 @@
 <?php
 
-namespace spec\Akeneo\Component\SpreadsheetParser\Xlsx;
+namespace spec\LumenAd\Component\SpreadsheetParser\Xlsx;
 
 use PhpSpec\ObjectBehavior;
-use Akeneo\Component\SpreadsheetParser\Xlsx\Styles;
+use LumenAd\Component\SpreadsheetParser\Xlsx\Styles;
 
 class StylesSpec extends ObjectBehavior
 {
@@ -14,7 +14,7 @@ class StylesSpec extends ObjectBehavior
 
     public function it_is_initializable()
     {
-        $this->shouldHaveType('Akeneo\Component\SpreadsheetParser\Xlsx\Styles');
+        $this->shouldHaveType('LumenAd\Component\SpreadsheetParser\Xlsx\Styles');
     }
 
     public function it_returns_shared_strings()

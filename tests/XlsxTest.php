@@ -1,7 +1,7 @@
 <?php
 
-use Akeneo\Component\SpreadsheetParser\SpreadsheetParser;
-use Akeneo\Component\SpreadsheetParser\Xlsx\XlsxParser;
+use LumenAd\Component\SpreadsheetParser\SpreadsheetParser;
+use LumenAd\Component\SpreadsheetParser\Xlsx\XlsxParser;
 use PHPUnit\Framework\TestCase;
 
 /**

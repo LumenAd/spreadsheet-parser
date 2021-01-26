@@ -1,7 +1,7 @@
 <?php
 
-use Akeneo\Component\SpreadsheetParser\Csv\CsvParser;
-use Akeneo\Component\SpreadsheetParser\SpreadsheetParser;
+use LumenAd\Component\SpreadsheetParser\Csv\CsvParser;
+use LumenAd\Component\SpreadsheetParser\SpreadsheetParser;
 use PHPUnit\Framework\TestCase;
 
 /**

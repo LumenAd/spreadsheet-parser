@@ -1,8 +1,8 @@
 <?php
 
-namespace Akeneo\Component\SpreadsheetParser\Csv;
+namespace LumenAd\Component\SpreadsheetParser\Csv;
 
-use Akeneo\Component\SpreadsheetParser\SpreadsheetInterface;
+use LumenAd\Component\SpreadsheetParser\SpreadsheetInterface;
 
 /**
  * Represents a CSV spreadsheet

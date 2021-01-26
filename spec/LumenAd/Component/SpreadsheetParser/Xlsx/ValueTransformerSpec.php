@@ -1,12 +1,12 @@
 <?php
 
-namespace spec\Akeneo\Component\SpreadsheetParser\Xlsx;
+namespace spec\LumenAd\Component\SpreadsheetParser\Xlsx;
 
 use PhpSpec\ObjectBehavior;
-use Akeneo\Component\SpreadsheetParser\Xlsx\DateTransformer;
-use Akeneo\Component\SpreadsheetParser\Xlsx\SharedStrings;
-use Akeneo\Component\SpreadsheetParser\Xlsx\Styles;
-use Akeneo\Component\SpreadsheetParser\Xlsx\ValueTransformer;
+use LumenAd\Component\SpreadsheetParser\Xlsx\DateTransformer;
+use LumenAd\Component\SpreadsheetParser\Xlsx\SharedStrings;
+use LumenAd\Component\SpreadsheetParser\Xlsx\Styles;
+use LumenAd\Component\SpreadsheetParser\Xlsx\ValueTransformer;
 use Prophecy\Argument;
 
 class ValueTransformerSpec extends ObjectBehavior
@@ -33,7 +33,7 @@ class ValueTransformerSpec extends ObjectBehavior
 
     public function it_is_initializable()
     {
-        $this->shouldHaveType('Akeneo\Component\SpreadsheetParser\Xlsx\ValueTransformer');
+        $this->shouldHaveType('LumenAd\Component\SpreadsheetParser\Xlsx\ValueTransformer');
     }
 
     public function it_transforms_shared_strings()

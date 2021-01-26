@@ -1,6 +1,6 @@
 <?php
 
-namespace Akeneo\Component\SpreadsheetParser\Xlsx;
+namespace LumenAd\Component\SpreadsheetParser\Xlsx;
 
 /**
  * Spreadsheet relationships

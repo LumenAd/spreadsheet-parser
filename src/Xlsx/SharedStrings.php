@@ -1,6 +1,6 @@
 <?php
 
-namespace Akeneo\Component\SpreadsheetParser\Xlsx;
+namespace LumenAd\Component\SpreadsheetParser\Xlsx;
 
 /**
  * Contains the shared strings of an Excel spreadsheet

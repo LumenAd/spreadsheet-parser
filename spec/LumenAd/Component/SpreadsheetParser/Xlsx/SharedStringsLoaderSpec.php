@@ -1,20 +1,20 @@
 <?php
 
-namespace spec\Akeneo\Component\SpreadsheetParser\Xlsx;
+namespace spec\LumenAd\Component\SpreadsheetParser\Xlsx;
 
-use Akeneo\Component\SpreadsheetParser\Xlsx\Archive;
+use LumenAd\Component\SpreadsheetParser\Xlsx\Archive;
 use PhpSpec\ObjectBehavior;
 
 class SharedStringsLoaderSpec extends ObjectBehavior
 {
     public function let()
     {
-        $this->beConstructedWith('spec\Akeneo\Component\SpreadsheetParser\Xlsx\StubSharedStrings');
+        $this->beConstructedWith('spec\LumenAd\Component\SpreadsheetParser\Xlsx\StubSharedStrings');
     }
 
     public function it_is_initializable()
     {
-        $this->shouldHaveType('Akeneo\Component\SpreadsheetParser\Xlsx\SharedStringsLoader');
+        $this->shouldHaveType('LumenAd\Component\SpreadsheetParser\Xlsx\SharedStringsLoader');
     }
 
     public function it_loads_shared_strings(Archive $archive)

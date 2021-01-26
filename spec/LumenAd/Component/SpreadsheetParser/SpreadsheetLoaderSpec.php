@@ -1,9 +1,9 @@
 <?php
 
-namespace spec\Akeneo\Component\SpreadsheetParser;
+namespace spec\LumenAd\Component\SpreadsheetParser;
 
-use Akeneo\Component\SpreadsheetParser\SpreadsheetInterface;
-use Akeneo\Component\SpreadsheetParser\SpreadsheetLoaderInterface;
+use LumenAd\Component\SpreadsheetParser\SpreadsheetInterface;
+use LumenAd\Component\SpreadsheetParser\SpreadsheetLoaderInterface;
 use PhpSpec\ObjectBehavior;
 
 class SpreadsheetLoaderSpec extends ObjectBehavior
@@ -20,7 +20,7 @@ class SpreadsheetLoaderSpec extends ObjectBehavior
 
     public function it_is_initializable()
     {
-        $this->shouldHaveType('Akeneo\Component\SpreadsheetParser\SpreadsheetLoader');
+        $this->shouldHaveType('LumenAd\Component\SpreadsheetParser\SpreadsheetLoader');
     }
 
     public function it_uses_the_loader_corresponding_to_the_file_extension(

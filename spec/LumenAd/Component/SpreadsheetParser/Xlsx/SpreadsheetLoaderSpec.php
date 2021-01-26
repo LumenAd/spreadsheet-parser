@@ -1,16 +1,16 @@
 <?php
 
-namespace spec\Akeneo\Component\SpreadsheetParser\Xlsx;
+namespace spec\LumenAd\Component\SpreadsheetParser\Xlsx;
 
 use PhpSpec\ObjectBehavior;
-use Akeneo\Component\SpreadsheetParser\Xlsx\Archive;
-use Akeneo\Component\SpreadsheetParser\Xlsx\ArchiveLoader;
-use Akeneo\Component\SpreadsheetParser\Xlsx\RelationshipsLoader;
-use Akeneo\Component\SpreadsheetParser\Xlsx\RowIteratorFactory;
-use Akeneo\Component\SpreadsheetParser\Xlsx\SharedStringsLoader;
-use Akeneo\Component\SpreadsheetParser\Xlsx\StylesLoader;
-use Akeneo\Component\SpreadsheetParser\Xlsx\ValueTransformerFactory;
-use Akeneo\Component\SpreadsheetParser\Xlsx\WorksheetListReader;
+use LumenAd\Component\SpreadsheetParser\Xlsx\Archive;
+use LumenAd\Component\SpreadsheetParser\Xlsx\ArchiveLoader;
+use LumenAd\Component\SpreadsheetParser\Xlsx\RelationshipsLoader;
+use LumenAd\Component\SpreadsheetParser\Xlsx\RowIteratorFactory;
+use LumenAd\Component\SpreadsheetParser\Xlsx\SharedStringsLoader;
+use LumenAd\Component\SpreadsheetParser\Xlsx\StylesLoader;
+use LumenAd\Component\SpreadsheetParser\Xlsx\ValueTransformerFactory;
+use LumenAd\Component\SpreadsheetParser\Xlsx\WorksheetListReader;
 
 class SpreadsheetLoaderSpec extends ObjectBehavior
 {
@@ -31,13 +31,13 @@ class SpreadsheetLoaderSpec extends ObjectBehavior
             $worksheetListReader,
             $valueTransformerFactory,
             $rowIteratorFactory,
-            'spec\Akeneo\Component\SpreadsheetParser\Xlsx\StubSpreadsheet'
+            'spec\LumenAd\Component\SpreadsheetParser\Xlsx\StubSpreadsheet'
         );
     }
 
     public function it_is_initializable()
     {
-        $this->shouldHaveType('Akeneo\Component\SpreadsheetParser\Xlsx\SpreadsheetLoader');
+        $this->shouldHaveType('LumenAd\Component\SpreadsheetParser\Xlsx\SpreadsheetLoader');
     }
 
     public function it_creates_spreadsheet_objects(

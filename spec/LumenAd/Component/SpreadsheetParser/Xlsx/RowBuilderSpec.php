@@ -1,6 +1,6 @@
 <?php
 
-namespace spec\Akeneo\Component\SpreadsheetParser\Xlsx;
+namespace spec\LumenAd\Component\SpreadsheetParser\Xlsx;
 
 use PhpSpec\ObjectBehavior;
 
@@ -8,7 +8,7 @@ class RowBuilderSpec extends ObjectBehavior
 {
     public function it_is_initializable()
     {
-        $this->shouldHaveType('Akeneo\Component\SpreadsheetParser\Xlsx\RowBuilder');
+        $this->shouldHaveType('LumenAd\Component\SpreadsheetParser\Xlsx\RowBuilder');
     }
 
     public function it_builds_simple_rows()

@@ -1,6 +1,6 @@
 <?php
 
-namespace Akeneo\Component\SpreadsheetParser\Csv;
+namespace LumenAd\Component\SpreadsheetParser\Csv;
 
 /**
  * Row iterator factory

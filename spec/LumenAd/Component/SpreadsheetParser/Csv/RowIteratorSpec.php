@@ -1,6 +1,6 @@
 <?php
 
-namespace spec\Akeneo\Component\SpreadsheetParser\Csv;
+namespace spec\LumenAd\Component\SpreadsheetParser\Csv;
 
 use PhpSpec\ObjectBehavior;
 
@@ -15,7 +15,7 @@ class RowIteratorSpec extends ObjectBehavior
     public function it_is_initializable()
     {
         $this->beConstructedWith('path', []);
-        $this->shouldHaveType('Akeneo\Component\SpreadsheetParser\Csv\RowIterator');
+        $this->shouldHaveType('LumenAd\Component\SpreadsheetParser\Csv\RowIterator');
     }
 
     public function it_parses_csv_files()
