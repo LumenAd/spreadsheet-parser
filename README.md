@@ -1,7 +1,7 @@
 LumenAd Spreadsheet Parser
 =========================
 
-This component is derivative of akeneo-labs (<insert link here>) and designed to extract data from spreadsheets, while being easy on resources, even for large files.
+This component is derivative of akeneo-labs (https://github.com/akeneo-labs/spreadsheet-parser) and designed to extract data from spreadsheets, while being easy on resources, even for large files.
 
 The current version of the spreadsheet parser works with csv and xlsx files.
 
